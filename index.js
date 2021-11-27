@@ -1,5 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
+const generatePage = require("./utils/generate-page.js");
+
 
 // array of questions for the user
 const questions = [
@@ -91,15 +93,24 @@ const questions = [
 ]
 
 // writing README file function
-function writeReadMe(fileName, data) {
-fs.writeFile(fileName, data, (err) => err ? console.log(err) : console.log('README file has been created.'))
+function writeReadMe (fileName, data) {
+ fs.writeFile(fileName, data, function(err) {
+ console.log(fileName)
+  console.log(data)
+ if (err){
+  return console.log(err)
+ } else {
+  console.log('Your README file has been created.')
+ }
+ })
 }
-
 
 // initiating the app function
 function start() {
  inquirer.prompt(questions)
- .then(data => writeReadMe("generateReadMe.md"))
+ .then(function(data) {
+ writeReadMe("generateReadMe.md", generatePage(data))
+ })
 }
 
 start();
