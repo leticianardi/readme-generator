@@ -85,7 +85,13 @@ const questions = [
   'GNU GPLv3',
   'MIT',
   'ISC License',
-  'None',
+  'UNLICENSED',
  ]     
 },
 ]
+
+// writing README file function
+function writeReadMe(fileName, data) {
+fs.writeFile(fileName, data, (err) => err ? console.log(err) : console.log('README file has been created.'))
+}
+
