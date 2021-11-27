@@ -95,3 +95,11 @@ function writeReadMe(fileName, data) {
 fs.writeFile(fileName, data, (err) => err ? console.log(err) : console.log('README file has been created.'))
 }
 
+
+// initiating the app function
+function start() {
+ inquirer.prompt(questions)
+ .then(data => writeReadMe("generateReadMe.md"))
+}
+
+start();
