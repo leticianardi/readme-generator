@@ -1,6 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generatePage = require("./utils/generate-page.js");
+const generateFile = require('./utils/generateMarkdown.js');
+const generatePage = require("./utils/generateMarkdown.js");
 
 
 // array of questions for the user
@@ -48,7 +49,6 @@ const questions = [
    type: 'input',
    name: 'install',
    message: 'Provide installation instructions',
-   default: 'Write npm init in your terminal and follow the instructions.',
   },
   {
    type: 'input',
@@ -109,7 +109,7 @@ function writeReadMe (fileName, data) {
 function start() {
  inquirer.prompt(questions)
  .then(function(data) {
- writeReadMe("generateReadMe.md", generatePage(data))
+ writeReadMe("README.md", generateFile(data))
  })
 }
 
