@@ -1,7 +1,6 @@
 const fs = require("fs");
 
-displayBadge();
-displayLink();
+
 displayFile();
 
 // display badges according to the user's choice.
@@ -20,20 +19,6 @@ function displayBadge(license) {
  }
  else if (license == 'UNLICENSED') {
   return "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)"
- }
-}
-
-function displayLink(license) {
- if (license == 'Apache 2.0') {
-  return `https://opensource.org/licenses/Apache-2.0`
- } else if (license == 'GNU GPLv3') {
-  return "https://opensource.org/licenses/GPL-3.0"
- } else if (license == 'MIT') {
-  return `https://opensource.org/licenses/MIT`
- } else if (license == 'ISC') {
-  return `https://opensource.org/licenses/ISC`
- } else if (license == 'UNLICENSED') {
-  return `https://opensource.org/licenses/unlicense`
  }
 }
 
@@ -66,7 +51,7 @@ function videoLink() {
 function generateFile(data) {
  return `# ${data.title}
 
- This project is licensed under ${displayBadge(data.license)}${displayLink(data.license)}.
+ This project is licensed under ${displayBadge(data.license)}.
 
   
  ## Description:
