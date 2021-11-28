@@ -58,7 +58,7 @@ const questions = [
   {
    type: 'input',
    name: 'contribute',
-   message: 'Who are the contributors for this project? (Please use commas to list them)',
+   message: 'Who are the contributors for this project?',
   },
   {
    type: 'input',
@@ -68,7 +68,7 @@ const questions = [
 {
  type: 'input',
  name: 'github',
- message: 'Enter your GitHub Username (Required)',
+ message: 'Enter your GitHub Username (Required):',
  validate: githubInput => {
    if (githubInput) {
      return true;

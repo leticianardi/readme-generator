@@ -56,12 +56,9 @@ displayBadge();
 displayLink();
 displayFile();
 
-//function to output a list of contributors
-function displayContributors(people) {
- let tempArr = people.split(', ');
- let person = '';
- tempArr.forEach(element => { person += `${element}<br />`; })
- return person;
+// show link for video
+function videoLink() {
+ return 'https://youtube.com';
 }
 
 // generating badge on README file
@@ -93,8 +90,8 @@ function generateFile(data) {
  You can check the walkthrough video: ${videoLink}
 
  ## Credits
- Here are the list of collaborators:  
- ${displayContributors(data.contributors)}
+ Here are the collaborators of this project:  
+ ${data.contributors}
 
  ## License
  ${displayBadge(data.license)}
@@ -106,12 +103,11 @@ function generateFile(data) {
  
  ## Tests
  You can check this repository and check how this app has been tested.
- GitHub profile:  ${profile}
- GitHub repository: ${data.test}
+ GitHub: http://github.com/${data.github}  
  
  ## Questions
- For questions please contact: ${data.author} at ${data.email}.
- GitHub Profile: ${profile} `
+ For questions, please contact: ${data.author} at ${data.email}.
+ GitHub: http://github.com/${data.github} `
 }
 
 module.exports = generateFile;
