@@ -1,4 +1,4 @@
-# README generator
+# README Generator
 
  This project is licensed under [![license]([![License: Unlicense](https://img.shields.io/badge/license-UNLICENSED-blue.svg)](http://unlicense.org/))](https://opensource.org/licenses/unlicense).
 
@@ -17,14 +17,12 @@
  * [Questions](#questions)
     
  ## Installation
- Here is how this application works:
+ Clone the repository and install the packages:
 
  ## Usage
  Here is how this application works:
   <br />
- You can check the walkthrough video: function videoLink() {
- return `https://youtube.com`;
-}
+ You can check the walkthrough video: https://youtu.be/O7QGApTLhso.
 
  ## Credits
  Here are the collaborators of this project:  

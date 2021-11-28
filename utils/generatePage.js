@@ -87,7 +87,7 @@ function generateFile(data) {
  ## Usage
  Here is how this application works:
  ${data.usage} <br />
- You can check the walkthrough video: ${videoLink}
+ You can check the walkthrough video: ${videoLink()}.
 
  ## Credits
  Here are the collaborators of this project:  
