@@ -1,10 +1,10 @@
-# README Generator
+# titulo
 
- This project is licensed under [![license]([![License: Unlicense](https://img.shields.io/badge/license-UNLICENSED-blue.svg)](http://unlicense.org/))](https://opensource.org/licenses/unlicense).
+ This project is licensed under ([![License: GPL v3](https://img.shields.io/badge/License-GNU GPLv3GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)https://opensource.org/licenses/GPL-3.0).
 
   
  ## Description:
- A README file is a text file (commonly readme.txt) containing information for the user about the software program, utility, or game. README files often contain instructions and additional help, and details about patches or updates. This application will help you to make a good README file automatically. You just have to answer the prompted questions on your terminal and your file will be generated.
+ descricap
     
     
  ## Table of contents
@@ -17,29 +17,25 @@
  * [Questions](#questions)
     
  ## Installation
- Clone the repository and install the packages:
+ intalacao
 
  ## Usage
- Here is how this application works:
-  <br />
- You can check the walkthrough video: https://youtu.be/O7QGApTLhso.
+ Here is how this application works: <br />
+ uso <br />
+ You can check the walkthrough video: (https://youtu.be/O7QGApTLhso).
 
  ## Credits
  Here are the collaborators of this project:  
- undefined
+ quem fez 
 
  ## License
- [![License: Unlicense](https://img.shields.io/badge/license-UNLICENSED-blue.svg)](http://unlicense.org/)
+ [![License: GPL v3](https://img.shields.io/badge/License-GNU GPLv3GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
- ## Contributing
- Leticia Nardi
- [Covenant Contributor](https://www.contributor-covenant.org/)
- [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
- 
  ## Tests
- You can check this repository and check how this app has been tested.
- GitHub: http://github.com/leticianardi  
+ You can check this repository and check how to test this app. <br />
+ GitHub: http://github.com/letcianardi  
  
  ## Questions
- For questions, please contact: Leticia Nardi at leticia.tnardi@gmail.com.
- GitHub: http://github.com/leticianardi 
+ For questions, please contact: <br />
+ autor at email <br />
+ GitHub: http://github.com/letcianardi <br />

@@ -1,5 +1,9 @@
 const fs = require("fs");
 
+displayBadge();
+displayLink();
+displayFile();
+
 // display badges according to the user's choice.
 function displayBadge(license) {
  if (license == 'Apache 2.0') {
@@ -52,9 +56,6 @@ function displayFile(license) {
  }
 }
 
-displayBadge();
-displayLink();
-displayFile();
 
 // show link for video
 function videoLink() {
@@ -65,7 +66,7 @@ function videoLink() {
 function generateFile(data) {
  return `# ${data.title}
 
- This project is licensed under [![license](${displayBadge(data.license)})](${displayLink(data.license)}).
+ This project is licensed under (${displayBadge(data.license)}${displayLink(data.license)}).
 
   
  ## Description:
@@ -85,29 +86,25 @@ function generateFile(data) {
  ${data.install}
 
  ## Usage
- Here is how this application works:
+ Here is how this application works: <br />
  ${data.usage} <br />
- You can check the walkthrough video: ${videoLink()}.
+ You can check the walkthrough video: (${videoLink()}).
 
  ## Credits
  Here are the collaborators of this project:  
- ${data.contributors}
+ ${data.contribute}
 
  ## License
  ${displayBadge(data.license)}
 
- ## Contributing
- ${data.contribute}
- [Covenant Contributor](https://www.contributor-covenant.org/)
- [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
- 
  ## Tests
- You can check this repository and check how this app has been tested.
+ You can check this repository and check how to test this app. <br />
  GitHub: http://github.com/${data.github}  
  
  ## Questions
- For questions, please contact: ${data.author} at ${data.email}.
- GitHub: http://github.com/${data.github} `
+ For questions, please contact: <br />
+ ${data.author} at ${data.email} <br />
+ GitHub: http://github.com/${data.github} <br />`
 }
 
 module.exports = generateFile;
