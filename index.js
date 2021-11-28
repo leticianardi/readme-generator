@@ -1,7 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateFile = require('./utils/generateMarkdown.js');
-const generatePage = require("./utils/generateMarkdown.js");
+const generateFile = require('./utils/generatePage.js');
+const generatePage = require("./utils/generatePage.js");
 
 
 // array of questions for the user
@@ -52,13 +52,18 @@ const questions = [
   },
   {
    type: 'input',
-   name: 'Contribute',
-   message: 'How to contribute with this project?',
+   name: 'usage',
+   message: 'Provide usage instructions',
+  },
+  {
+   type: 'input',
+   name: 'contribute',
+   message: 'Who are the contributors for this project? (Please use commas to list them)',
   },
   {
    type: 'input',
    name: 'test',
-   message: 'How to test this application?',
+   message: 'Command to run or test your application:',
 },
 {
  type: 'input',
@@ -86,7 +91,7 @@ const questions = [
   'Apache 2.0',
   'GNU GPLv3',
   'MIT',
-  'ISC License',
+  'ISC',
   'UNLICENSED',
  ]     
 },
@@ -94,9 +99,7 @@ const questions = [
 
 // writing README file function
 function writeReadMe (fileName, data) {
- fs.writeFile(fileName, data, function(err) {
- console.log(fileName)
-  console.log(data)
+ fs.writeFile(fileName, data, (err) => {
  if (err){
   return console.log(err)
  } else {
@@ -108,8 +111,11 @@ function writeReadMe (fileName, data) {
 // initiating the app function
 function start() {
  inquirer.prompt(questions)
- .then(function(data) {
+ .then((data) => {
  writeReadMe("README.md", generateFile(data))
+ })
+ .catch((err) => {
+  console.log('There was an error.', err)
  })
 }
 
