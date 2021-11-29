@@ -1,18 +1,18 @@
-# oooooooooo
-   [![License](https://img.shields.io/badge/license-Apache-2.0-blue.svg)](#license)
+# g
+   [![License](https://img.shields.io/badge/license-Apache_2.0-blue.svg)](#license)
 
  ## Description
 
- o
+ g
     
- You can check the walkthrough video: [https://youtu.be/O7QGApTLhso].   
+ You can check how this application works clicking [here](#https://youtu.be/O7QGApTLhso).
 
  ## Table of contents
  * [Description](#description)
  * [Installation](#installation)
  * [Usage](#usage)
  
-* [License](#license)
+ * [License](#license)
 
  * [Contributing](#contributing)
  * [Tests](#tests)
@@ -20,32 +20,32 @@
     
  ## Installation
 
- o
+ g
 
  ## Usage
 
  Here is how this application works
 
- o
+ g
 
  ## Contributing
 
- o
+ g
 
  ## License
  
- This project is licensed under Apache-2.0 license.
+ This project is licensed under Apache_2.0 license.
 
  ## Tests
 
- o
+ g
  
  
  ## Questions
 
  For questions, please contact:
 
- ooo at o.
+ g at g.
 
- GitHub: http://github.com/o
+ GitHub: http://github.com/g
 

@@ -8,7 +8,7 @@ const questions = [
   {
     type: "input",
     name: "title",
-    message: "What is the title of your project? (Required)",
+    message: "What is the title of your project? (Required):",
     validate: (titleInput) => {
       if (titleInput) {
         return true;
@@ -21,7 +21,7 @@ const questions = [
   {
     type: "input",
     name: "author",
-    message: "Enter the author of the project (Required)",
+    message: "Enter the author of the project (Required):",
     validate: (authorInput) => {
       if (authorInput) {
         return true;
@@ -34,7 +34,7 @@ const questions = [
   {
     type: "input",
     name: "description",
-    message: "Provide a description of the project (Required)",
+    message: "Provide a description of the project (Required):",
     validate: (descriptionInput) => {
       if (descriptionInput) {
         return true;
@@ -86,7 +86,7 @@ const questions = [
     type: "list",
     name: "license",
     message: "What kind of licenses are you using?",
-    choices: ["Apache-2.0", "GNU-GPLv3", "MIT", "ISC", "UNLICENSED"],
+    choices: ["Apache_2.0", "GPLv3", "MIT", "ISC", "UNLICENSED"],
   },
 ];
 

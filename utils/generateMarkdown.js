@@ -13,12 +13,12 @@ function renderLicenseBadge(license) {
  return `[![License](https://img.shields.io/badge/license-${license}-blue.svg)](#license)`
 }
 
-// TODO: return the license link; if there is no license, return an empty string
+// return the license link; if there is no license, return an empty string
 function renderLicenseLink(license) {
  if (license === 'UNLICENSED'){
    return '';
  }
- return `\n* [License](#license)\n`
+ return `\n * [License](#license)\n`
 }
 
 
@@ -42,7 +42,7 @@ function generateMarkdown(data) {
 
  ${data.description}
     
- You can check the walkthrough video: [${videoLink()}].   
+ You can check how this application works clicking [here](#${videoLink()}).
 
  ## Table of contents
  * [Description](#description)
