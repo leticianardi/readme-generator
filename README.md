@@ -5,7 +5,7 @@
 
  A README file is a text file (commonly readme.txt) containing information for the user about the software program, utility, or game. README files often contain instructions and additional help, and details about patches or updates. This application will help you to make a good README file automatically. You just have to answer the prompted questions on your terminal and your file will be generated.
     
- You can check how this application works clicking [here](#https://youtu.be/O7QGApTLhso).
+ You can check how this application works clicking [here](https://www.youtube.com/watch?v=Mdu2QzMuvo0).
 
  ## Table of contents
  * [Description](#description)
@@ -20,17 +20,21 @@
     
  ## Installation
 
- To use this application, clone the repository and install the packages on your terminal.
-  $git clone git@github.com:leticianardi/readme-generator.git
-  $rm package.json
-  $npm init
+ To use this application, clone the repository and install the packages on your terminal following these commands:
+  ```
+  $git clone git@github.com:leticianardi/readme-generator.git 
+  
+  $rm package.json 
+  
+  $npm init 
+  
   $npm install inquirer
+  ```
 
  ## Usage
 
  Here is how this application works:
-
- <img src="./images/Node cropped video.gif">
+ <img src ="./images/Node cropped video.gif">
 
  
 

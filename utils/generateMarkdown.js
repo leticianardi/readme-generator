@@ -42,7 +42,7 @@ function generateMarkdown(data) {
 
  ${data.description}
     
- You can check how this application works clicking [here](#${videoLink()}).
+ You can check how this application works clicking [here](${videoLink()}).
 
  ## Table of contents
  * [Description](#description)
