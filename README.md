@@ -1,9 +1,9 @@
-# pp
-   [Github license](https://img.shields.io/badge/License-GNU GPLv3-blue.svg)
+# ffff
+   [Github license](https://img.shields.io/badge/License-Apache-2.0-blue.svg)
 
  ## Description
 
- p
+ f
     
  You can check the walkthrough video: [https://youtu.be/O7QGApTLhso].   
 
@@ -20,32 +20,32 @@
     
  ## Installation
 
- p
+ f
 
  ## Usage
 
  Here is how this application works
 
- p
+ f
 
  ## Contributing
 
- p
+ f
 
  ## License
  
- This project is licensed under GNU GPLv3 license.
+ This project is licensed under Apache-2.0 license.
 
  ## Tests
 
- p
+ 
  
  
  ## Questions
 
  For questions, please contact:
 
- p at p.
+ fff at f.
 
- GitHub: http://github.com/p
+ GitHub: http://github.com/ffff
 
