@@ -20,11 +20,17 @@
     
  ## Installation
 
- To use this application, clone the repository and add the packages from your terminal.
+ To use this application, clone the repository and install the packages on your terminal.
+  $git clone git@github.com:leticianardi/readme-generator.git
+  $rm package.json
+  $npm init
+  $npm install inquirer
 
  ## Usage
 
- Here is how this application works
+ Here is how this application works:
+
+ <img src="./images/Node cropped video.gif">
 
  
 
@@ -38,7 +44,7 @@
 
  ## Tests
 
- node index.js
+ To run a test, type node index.js on your terminal, answer the questions and see how the README file is generated automatically.
  
  
  ## Questions
