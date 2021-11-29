@@ -1,13 +1,14 @@
 const fs = require("fs");
 
 
-displayFile();
+displayBadge();
 
 // display badges according to the user's choice.
 function displayBadge(license) {
  if (license == 'Apache 2.0') {
-  licenseFile = fs.readFileSync('./Apache.txt', 'utf-8')
-  return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+  licenseFile = fs.readFileSync('/utils/Apache.txt', 'utf-8')
+  licenseBadge = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+  licenseLink = `https://opensource.org/licenses/Apache-2.0`
  }
  else if (license == 'GNU GPLv3') {
   return "[![License: GPL v3](https://img.shields.io/badge/License-GNU%20GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
@@ -23,24 +24,24 @@ function displayBadge(license) {
  }
 }
 
-function displayFile(license) {
- if (license == 'Apache 2.0') {
-  licenseFile = fs.readFileSync('./Apache.txt', 'utf-8')
-  return `${licenseFile}`
- } else if (license == 'GNU GPLv3') {
-  licenseFile = fs.readFileSync('./GNU.txt', 'utf-8')
-  return `${licenseFile}`
- } else if (license == 'MIT') {
-  licenseFile = fs.readFileSync('./MIT.txt', 'utf-8')
-  return `${licenseFile}`
- } else if (license == 'ISC') {
-  licenseFile = fs.readFileSync('ISC.txt', 'utf-8')
-  return `${licenseFile}`
- } else if (license == 'UNLICENSED') {
-  licenseFile = fs.readFileSync('./unlincensed.txt', 'utf-8')
-  return `${licenseFile}`
- }
-}
+// function displayFile(license) {
+//  if (license == 'Apache 2.0') {
+//   licenseFile = fs.readFileSync('./Apache.txt', 'utf-8')
+//   return `${licenseFile}`
+//  } else if (license == 'GNU GPLv3') {
+//   licenseFile = fs.readFileSync('./GNU.txt', 'utf-8')
+//   return `${licenseFile}`
+//  } else if (license == 'MIT') {
+//   licenseFile = fs.readFileSync('./MIT.txt', 'utf-8')
+//   return `${licenseFile}`
+//  } else if (license == 'ISC') {
+//   licenseFile = fs.readFileSync('ISC.txt', 'utf-8')
+//   return `${licenseFile}`
+//  } else if (license == 'UNLICENSED') {
+//   licenseFile = fs.readFileSync('./unlincensed.txt', 'utf-8')
+//   return `${licenseFile}`
+//  }
+// }
 
 
 // show link for video
