@@ -10,7 +10,7 @@ function renderLicenseBadge(license) {
  if (license === 'UNLICENSED'){
    return '';
  }
- return `[![${license}](https://img.shields.io/badge/license-${license}-blue.svg)](#license)`
+ return `[![License](https://img.shields.io/badge/license-${license}-blue.svg)](#license)`
 }
 
 // TODO: return the license link; if there is no license, return an empty string

@@ -1,9 +1,9 @@
-# hhhhhhhhh
-   [![GNU-GPLv3](https://img.shields.io/badge/license-GNU-GPLv3-blue.svg)](#license)
+# oooooooooo
+   [![License](https://img.shields.io/badge/license-Apache-2.0-blue.svg)](#license)
 
  ## Description
 
- hhhhhhhhh
+ o
     
  You can check the walkthrough video: [https://youtu.be/O7QGApTLhso].   
 
@@ -20,32 +20,32 @@
     
  ## Installation
 
- hhhhhhhhhh
+ o
 
  ## Usage
 
  Here is how this application works
 
- h
+ o
 
  ## Contributing
 
- h
+ o
 
  ## License
  
- This project is licensed under GNU-GPLv3 license.
+ This project is licensed under Apache-2.0 license.
 
  ## Tests
 
- h
+ o
  
  
  ## Questions
 
  For questions, please contact:
 
- hhhhhhhh at h.
+ ooo at o.
 
- GitHub: http://github.com/h
+ GitHub: http://github.com/o
 
