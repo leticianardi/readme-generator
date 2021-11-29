@@ -2,7 +2,7 @@ const fs = require("fs");
 
 
 function videoLink() {
- return `https://youtu.be/O7QGApTLhso`;
+ return `https://www.youtube.com/watch?v=Mdu2QzMuvo0`;
 }
 
 // return a license badge based on which license is passed in; if there is no license, return an empty string
